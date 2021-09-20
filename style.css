@@ -1,0 +1,48 @@
+*{background-color: yellow;
+}
+.body{
+
+    font-family:Verdana;
+    font-size:medium;
+
+}
+.heading{
+    font-family:Georgia;
+    font-size: xx-large;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+.h1{
+    font-size:xx-large;
+    
+}
+.income{
+    background-color: #0ff;
+
+}
+.profit{
+    background-color:#f00;
+}
+.expenses{
+    background-color: #f0f;
+}
+.list{
+    list-style-type: none;
+    display:inline;
+    border-style: double;
+    border-width: medium;
+    margin: 5px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+p::first-letter{
+    font-size: 36px;
+    font-weight: bold;
+    float: left;
+}
+}
